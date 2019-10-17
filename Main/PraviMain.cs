@@ -8,15 +8,15 @@ namespace Vsite.CSharp.StrukturaPrograma
 {
     class PraviMain
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Krećem iz Program.Main(string[] args)");
+            Console.WriteLine("Krećem iz PraviMain.Main(string[] args)");
         }
 
         // TODO:002 Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
         static void Main()
         {
-            Console.WriteLine("Krećem iz Program.Main()");
+            Console.WriteLine("Krećem iz PraviMain.Main()");
         }
 
         public static void main()
