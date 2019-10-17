@@ -6,7 +6,7 @@ namespace Vsite.CSharp.StrukturaPrograma
     {
         static void Main()
         {
-            Console.WriteLine("Krećem iz Class1.Main()");
+            Console.WriteLine("Krećem iz JošJedanMain.Main()");
         }
     }
 }
