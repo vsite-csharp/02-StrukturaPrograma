@@ -8,8 +8,8 @@ namespace Vsite.CSharp.StrukturaPrograma
     class Identifikatori
     {
         static void Main(string[] args)
-        {
-
+        { 
+            
 
             int @string = 5;
             string get = "get";
