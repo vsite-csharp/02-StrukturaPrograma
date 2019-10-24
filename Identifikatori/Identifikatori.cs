@@ -9,19 +9,27 @@ namespace Vsite.CSharp.StrukturaPrograma
     {
         static void Main(string[] args)
         {
-            // TODO:040 Dodati varijablu s imenom "string". Provjeriti javlja li prevoditelj pogrešku za ime varijable. Ako javlja, napraviti potrebnu promjenu da se ime može koristiti. U protivnom ispisati vrijednost varijable.
+           
+            int @string=10;
 
-            // TODO:041 dodati varijablu s imenom "get". Ponoviti postupke iz prethodnog TODO.
+            
+            string get="get";
+            //get je konteksna ključna riječ...nije ključna riječ
 
-            // TODO:042 Dodati varijablu s imenom "Main". Ponoviti postupke iz prethodnog TODO.
+            
+            double Main = 3.14;
+            //i ovo prolazi
 
-            // TODO:043 Dodati varijablu sa hrvatskim dijakritičkim znakovima "četrdesetšest". Ponoviti postupke iz prethodnog TODO.
+            
+            int četrdesetšest = 47;            //mogu se koristiti dijakretički znakovi...UTF-32=možemo koristiti bilo koje znakove
 
-            // TODO:044 Dodati istoimenu varijablu "četrdesetšest" i u njoj slovo 'š' zamijeniti njegovim Unicode kodom \u0161 i provjeriti prihvaća li prevoditelj takav oblik imena.
+            //double četrdeset\u0161est = 46.0;
+            //greška zbog istog imena i zbog unicoda ali se ne preporučuje
+            
+            int бројШест = 6;            //i ovo je regularno
 
-            // TODO:045 Dodati cjelobrojnu varijablu s imenom "бројШест" te provjeriti prihvaća li prevoditelj to ime.
-
-            // TODO:046 Dodati varijablu "你好" tipa string te provjeriti prihvaća li prevoditelj to ime.
+            
+            string 你好 = "nihao";            //prolazi
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey(true);
