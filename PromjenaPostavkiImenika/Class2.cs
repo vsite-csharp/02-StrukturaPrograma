@@ -1,7 +1,9 @@
-﻿namespace Vsite.Csharp.StrukturaPrograma
+﻿using System;
+
+namespace Vsite.Csharp.StrukturaPrograma
 {
     class Class2
     {
-
+        
     }
 }
