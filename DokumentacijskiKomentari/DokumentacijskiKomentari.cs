@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Vsite.CSharp.StrukturaPrograma
 {
+    /// <summary>
+    /// Primjer dokumentacijskih komentara.
+    /// </summary>
     class DokumentacijskiKomentari
     {
         static void Main(string[] args)
@@ -28,14 +31,14 @@ namespace Vsite.CSharp.StrukturaPrograma
         }
 
         /// <summary>
-        ///   Izračunava kvadrat broja.
+        ///  Izračunava ukupnu duljinu dvije riječi.
         /// </summary>
-        /// <param name="broj">
-        ///   Broj čiji kvadrat treba izračunati.
-        /// </param>
+        /// <param name="prva"> Prva riječ</param>
+        /// <param name="druga"> Druga riječ</param>
         /// <returns>
-        ///   Zadani broj na kvadrat, tipa <c>double</c>.
-        /// </returns>        static int DuljinaDvijeRiječi(string prva, string druga)
+        ///   Duljina poslanih riječi, u tipu <c>integer</c>.
+        /// </returns>
+        static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
         }
