@@ -9,6 +9,13 @@ namespace Vsite.CSharp.StrukturaPrograma
     {
         static void Main(string[] args)
         {
+            int @string= 5;
+            string get = "get";
+            int main = 3;
+            int četrdesetšest = 5;
+            //int četrdeset\u0161est = 6;
+            double бројШест = 6;
+            long 你好 = 24;
             // TODO:040 Dodati varijablu s imenom "string". Provjeriti javlja li prevoditelj pogrešku za ime varijable. Ako javlja, napraviti potrebnu promjenu da se ime može koristiti. U protivnom ispisati vrijednost varijable.
 
             // TODO:041 dodati varijablu s imenom "get". Ponoviti postupke iz prethodnog TODO.
