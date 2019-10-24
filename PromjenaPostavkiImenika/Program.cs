@@ -7,7 +7,7 @@ namespace Vsite.CSharp.StrukturaPrograma
         static void Main(string[] args)
         {
             Console.WriteLine("dobar dan");
-            Console.ReadKey()
+            Console.ReadKey();
         }
     }
 }
