@@ -27,8 +27,15 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:010 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
-        static int DuljinaDvijeRiječi(string prva, string druga)
+        /// <summary>
+        ///   Izračunava kvadrat broja.
+        /// </summary>
+        /// <param name="broj">
+        ///   Broj čiji kvadrat treba izračunati.
+        /// </param>
+        /// <returns>
+        ///   Zadani broj na kvadrat, tipa <c>double</c>.
+        /// </returns>        static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
         }
