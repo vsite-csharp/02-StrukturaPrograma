@@ -5,12 +5,17 @@ using System.Text;
 
 namespace Vsite.CSharp.StrukturaPrograma
 {
-    class DokumentacijskiKomentari
+ 
+	/// <summary>
+	/// Primjer dokumentacijskih komentara
+	/// </summary>
+	class DokumentacijskiKomentari
     {
         static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
             Console.WriteLine(DuljinaDvijeRiječi("dva", "2"));
+			Console.WriteLine(Math.Sqrt(2.0));
         }
 
         /// <summary>
@@ -27,8 +32,14 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:010 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
-        static int DuljinaDvijeRiječi(string prva, string druga)
+      
+		/// <summary>
+		/// Izracunava ukupnu duljinu dvije rijeci.
+		/// </summary>
+		/// <param name="prva">Prva rijec.</param>
+		/// <param name="druga">Druga rijec.</param>
+		/// <returns>Cijeli broj jednak ukupnoj duljini</returns>
+	static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
         }
