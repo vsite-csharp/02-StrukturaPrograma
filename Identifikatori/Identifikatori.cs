@@ -20,7 +20,7 @@ namespace Vsite.CSharp.StrukturaPrograma
             double četrdeset\u0161est = 46.1;
 
             int бројШест = 6;
-            string 你好="nešto na kineskom"
+            string 你好 = "nešto na kineskom";
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey(true);
         }
