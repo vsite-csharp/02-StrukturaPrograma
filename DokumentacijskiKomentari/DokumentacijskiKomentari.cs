@@ -5,14 +5,19 @@ using System.Text;
 
 namespace Vsite.CSharp.StrukturaPrograma
 {
+    /// <summary>
+    /// Primjer dokumentacijskih komentara
+    /// </summary>
     class DokumentacijskiKomentari
     {
         static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
             Console.WriteLine(DuljinaDvijeRiječi("dva", "2"));
+            Console.WriteLine(Math.Sqrt(2.0));
         }
 
+        // ctrl + shift + space pored argumenata funkcije daje cijeli opis
         /// <summary>
         ///   Izračunava kvadrat broja.
         /// </summary>
@@ -27,7 +32,12 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:010 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        /// <summary>
+        /// Izracunava ukupnu duljinu dviju rijeci
+        /// </summary>
+        /// <param name="prva">Prva rijec</param>
+        /// <param name="druga">Druga rijec</param>
+        /// <returns>Cijeli broj jednak sumi duljina rijeci</returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
