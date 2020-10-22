@@ -2,6 +2,9 @@
 
 namespace Vsite.CSharp.StrukturaPrograma
 {
+    /// <summary>
+    /// dokumentacijki komentari
+    /// </summary>
     class DokumentacijskiKomentari
     {
         static void Main(string[] args)
