@@ -26,9 +26,9 @@ namespace Vsite.CSharp.StrukturaPrograma
       /// <summary>
       /// Metoda zbraja duljinu prve i druge riječi
       /// </summary>
-      /// <param name="prva"></param>
-      /// <param name="druga"></param>
-      /// <returns></returns>
+      /// <param name="prva">prva riječ</param>
+      /// <param name="druga">druga riječ</param>
+      /// <returns>broj znakova u obje rijeci </returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
