@@ -8,5 +8,6 @@ namespace Vsite.CSharp.imenici
 {
     class Class2
     {
+
     }
 }
