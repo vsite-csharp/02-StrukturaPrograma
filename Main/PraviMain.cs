@@ -3,10 +3,12 @@
 
 
 namespace Vsite.CSharp.StrukturaPrograma
+
+    /// Primjer iz dokumentacijskih komentara
 {
     class PraviMain
     {
-        private static void Main(string[] args)
+        private static void MyMain(string[] args)
         {
             Console.WriteLine("Krećem iz PraviMain.Main(string[] args)");
         }
