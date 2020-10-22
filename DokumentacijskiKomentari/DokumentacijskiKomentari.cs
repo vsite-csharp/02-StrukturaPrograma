@@ -7,6 +7,7 @@ namespace Vsite.CSharp.StrukturaPrograma
     /// </summary>
     class DokumentacijskiKomentari
     {
+        static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
             Console.WriteLine(DuljinaDvijeRiječi("dva", "2"));
@@ -26,7 +27,6 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
         /// <summary>
         /// Izračunava ukupnu duljinu dvije riječi
         /// </summary>
