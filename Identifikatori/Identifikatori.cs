@@ -18,7 +18,7 @@ namespace Vsite.CSharp.StrukturaPrograma
             //int četrdeset\u0161est = 46;
 
             int бројШест = 6;
-            string 你好 = "你好"
+            string 你好 = "你好";
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey(true);
