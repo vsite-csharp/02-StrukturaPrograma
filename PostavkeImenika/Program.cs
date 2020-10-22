@@ -10,7 +10,7 @@ namespace Vsite.CSharp.Imenici
     {
         static void Main(string[] args)
         {
-            mojaKlasa1 Mk1 = new mojaklasa();
+            mojaKlasa1 Mk1 = new mojaKlasa1();
             mojaKlasa2 Mk2 = new mojaKlasa2();
         }
     }
