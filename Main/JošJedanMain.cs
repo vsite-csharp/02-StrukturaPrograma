@@ -4,7 +4,7 @@ namespace Vsite.CSharp.StrukturaPrograma
 {
     class JošJedanMain
     {
-        static void Main()
+        static void SecondMain()
         {
             Console.WriteLine("Krećem iz JošJedanMain.Main()");
         }
