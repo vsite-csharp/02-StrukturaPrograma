@@ -23,6 +23,7 @@ namespace Vsite.CSharp.StrukturaPrograma
             string бројШест = "";
             // Dodati varijablu "你好" tipa string te provjeriti prihvaća li prevoditelj to ime.
             string 你好 = "你好";
+            Console.OutputEncoding = Encoding.Unicode;
             Console.WriteLine(你好);
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey(true);
