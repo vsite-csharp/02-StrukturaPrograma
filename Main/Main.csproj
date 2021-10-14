@@ -33,7 +33,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Vsite.CSharp.StrukturaPrograma.JošJedanMain</StartupObject>
+    <StartupObject>Vsite.CSharp.StrukturaPrograma.PraviMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
