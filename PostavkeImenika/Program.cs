@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Vsite.CSharp.Imenici
 {
@@ -6,10 +10,8 @@ namespace Vsite.CSharp.Imenici
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            var mojaKlasa1 = new MojaKlasa1();
-            var mojaKlasa2 = new MojaKlasa2();
-
+            var mojaklasa1 = new MojaKlasa1();
+            var mojaklasa2 = new MojaKlasa2();
         }
     }
 }
