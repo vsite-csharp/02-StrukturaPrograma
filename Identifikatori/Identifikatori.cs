@@ -27,6 +27,7 @@ namespace Vsite.CSharp.StrukturaPrograma
             // 045 Dodati cjelobrojnu varijablu s imenom "бројШест" te provjeriti prihvaća li prevoditelj to ime.
             int бројШест;
             // 046 Dodati varijablu "你好" tipa string te provjeriti prihvaća li prevoditelj to ime.
+            Console.OutputEncoding = Encoding.Unicode;
             String 你好 = "你好";
             Console.WriteLine(你好);
             Console.WriteLine("GOTOVO!!!");
