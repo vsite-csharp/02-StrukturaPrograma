@@ -1,4 +1,5 @@
 ﻿using System;
+using Vsite.CSharp.DrugiImenik;
 
 namespace Vsite.CSharp.PrviImenik
 {
@@ -12,6 +13,8 @@ namespace Vsite.CSharp.PrviImenik
             mk1.Metoda1();
 
             // TODO:021 Promijeniti donji poziv tako da se poziva klasa MojaKlasa iz imenika Vsite.CSharp.DrugiImenik. Napraviti build, pokrenuti program i provjeriti ispise.
+            MojaKlasa mk3 = new DrugiImenik.MojaKlasa();
+            mk3.Metoda2();
             MojaKlasa mk2 = new MojaKlasa();
             mk2.Metoda2();
 
