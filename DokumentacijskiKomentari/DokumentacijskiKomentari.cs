@@ -7,7 +7,6 @@ namespace Vsite.CSharp.StrukturaPrograma
 {
     class DokumentacijskiKomentari
     {
-        // TODO:010 Postaviti strelicu (kurzor) iznad donjeg poziva metode Kvadrat i provjeriti što se prikazuje u oblačiću (eventualno napraviti build prije toga).
         static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
