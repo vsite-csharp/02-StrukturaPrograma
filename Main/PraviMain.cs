@@ -11,6 +11,8 @@ namespace Vsite.CSharp.StrukturaPrograma
         private static void Main(string[] args)
         {
             Console.WriteLine("Krećem iz PraviMain.Main(string[] args)");
+            Console.WriteLine(args[0]);
+            Console.ReadKey(false);
         }
 
         // TODO:002 Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
