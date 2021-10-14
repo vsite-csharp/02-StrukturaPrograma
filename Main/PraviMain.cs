@@ -15,7 +15,7 @@ namespace Vsite.CSharp.StrukturaPrograma
             Console.ReadKey(false);
         }
 
-        // TODO:002 Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
+        // Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
         //static void Main()
         //{
         //    Console.WriteLine("Krećem iz PraviMain.Main()");
