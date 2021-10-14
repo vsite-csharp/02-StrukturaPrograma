@@ -4,8 +4,7 @@ namespace Vsite.CSharp.StrukturaPrograma
 {
     class DokumentacijskiKomentari
     {
-        // TODO:010 Postaviti strelicu (kurzor) iznad donjeg poziva metode Kvadrat i provjeriti što se prikazuje u oblačiću (eventualno napraviti build prije toga).
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
             Console.WriteLine(DuljinaDvijeRiječi("dva", "2"));
@@ -25,7 +24,18 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+    /// <summary>
+    ///     Izračunava ukupnu duljinu dviju riječi
+    /// </summary>
+    /// <param name="prva">
+    ///     Prva riječ
+    /// </param>
+    /// <param name="druga">
+    ///     Druga riječ
+    /// </param>
+    /// <returns>
+    ///     Ukupan broj znakova u dvije riječi
+    /// </returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
