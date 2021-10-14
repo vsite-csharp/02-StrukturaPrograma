@@ -11,7 +11,7 @@ namespace PostavkeImenika
     {
         static void Main(string[] args)
         {
-            Class1 c = new Class1()
+            Class1 c = new Class1();
         }
     }
 }
