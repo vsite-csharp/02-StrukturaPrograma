@@ -12,7 +12,7 @@ namespace Vsite.CSharp.StrukturaPrograma
         }
 
         /// <summary>
-        ///   Izračunava kvadrat broja.
+        ///   Izračunava kvadrat broja. nešto aloooo
         /// </summary>
         /// <param name="broj">
         ///   Broj čiji kvadrat treba izračunati.
@@ -26,6 +26,16 @@ namespace Vsite.CSharp.StrukturaPrograma
         }
 
         // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        /// <summary>
+        /// Izračunava ukupnu duljinu dvije riječi
+        /// </summary>
+        /// <param name="prva">Prva riječ</param>
+        /// <param name="druga">Druga riječ</param>
+        /// <returns>
+        ///     Ukupan broj znakova u dvije riječi
+        /// </returns>
+        
+        
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
