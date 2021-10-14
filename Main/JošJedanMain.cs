@@ -7,6 +7,7 @@ namespace Vsite.CSharp.StrukturaPrograma
         static void Main()
         {
             Console.WriteLine("Krećem iz JošJedanMain.Main()");
+            Console.ReadKey();
         }
     }
 }
