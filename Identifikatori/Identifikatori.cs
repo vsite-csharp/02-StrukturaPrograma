@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 
@@ -23,14 +24,15 @@ namespace Vsite.CSharp.StrukturaPrograma
             int četrdesetšest = 0;
 
             // Dodati istoimenu varijablu "četrdesetšest" i u njoj slovo 'š' zamijeniti njegovim Unicode kodom \u0161 i provjeriti prihvaća li prevoditelj takav oblik imena.
-            int četrdeset\u0161est_ = 0;
+            //int četrdeset\u0161est = 0;
             
             // Dodati cjelobrojnu varijablu s imenom "бројШест" te provjeriti prihvaća li prevoditelj to ime.
             int бројШест = 0;
             
             // Dodati varijablu "你好" tipa string te provjeriti prihvaća li prevoditelj to ime.
-            string 你好 = "";
-
+            Console.OutputEncoding = Encoding.Unicode;
+            string 你好 = "Hello";
+            Console.WriteLine("你好");
             Console.WriteLine("GOTOVO!!!!");
             Console.ReadKey(true);
         }
