@@ -16,7 +16,7 @@ namespace Vsite.CSharp.PrviImenik
             DrugiImenik.MojaKlasa mk2 = new DrugiImenik.MojaKlasa();
             mk2.Metoda2();
 
-            Console.WriteLine("GOTOVO!!!");
+            Console.WriteLine("GOTOVO!!!!");
             Console.ReadKey(true);
         }
 
