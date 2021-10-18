@@ -13,4 +13,5 @@ namespace Vsite.Csharp.Imenici
             Vsite.Csharp.Imenici.Class1 c = Vsite.Csharp.Imenici.new class();
         }
     }
-}
+ }
+
