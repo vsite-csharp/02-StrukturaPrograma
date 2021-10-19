@@ -12,7 +12,7 @@ namespace Vsite.CSharp.PrviImenik
             mk1.Metoda1();
 
             // Promijeniti donji poziv tako da se poziva klasa MojaKlasa iz imenika Vsite.CSharp.DrugiImenik. Napraviti build, pokrenuti program i provjeriti ispise.
-            Vsite.CSharp.DrugiImenik.MojaKlasa mk2 = new Vsite.CSharp.DrugiImenik.MojaKlasa();
+            DrugiImenik.MojaKlasa mk2 = new DrugiImenik.MojaKlasa();
             mk2.Metoda2();
 
             Console.WriteLine("GOTOVO!!!");
