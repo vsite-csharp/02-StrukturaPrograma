@@ -5,14 +5,19 @@ namespace Vsite.CSharp.PrviImenik
     class Imenici
     {
 
-        // TODO:020 Pokrenuti program i provjeriti ispise poziva donjih metoda.
+        // 020 Pokrenuti program i provjeriti ispise poziva donjih metoda.
+        // Odg: Ispis prve metode -> Vsite.CSharp.PrviImenik.MojaKlasa.Metoda1()
+        // Odg: Ispis druge metode -> Vsite.CSharp.PrviImenik.MojaKlasa.Metoda2()
+
         static void Main(string[] args)
         {
             MojaKlasa mk1 = new MojaKlasa();
             mk1.Metoda1();
 
-            // TODO:021 Promijeniti donji poziv tako da se poziva klasa MojaKlasa iz imenika Vsite.CSharp.DrugiImenik. Napraviti build, pokrenuti program i provjeriti ispise.
-            MojaKlasa mk2 = new MojaKlasa();
+            // 021 Promijeniti donji poziv tako da se poziva klasa MojaKlasa iz imenika Vsite.CSharp.DrugiImenik. Napraviti build, pokrenuti program i provjeriti ispise.
+            // Odg: Ispis prve metode -> Vsite.CSharp.PrviImenik.MojaKlasa.Metoda1()
+            // Odg: Ispis druge metode -> Vsite.CSharp.DrugiImenik.MojaKlasa.Metoda2()
+            Vsite.CSharp.DrugiImenik.MojaKlasa mk2 = new Vsite.CSharp.DrugiImenik.MojaKlasa();
             mk2.Metoda2();
 
             Console.WriteLine("GOTOVO!!!");
