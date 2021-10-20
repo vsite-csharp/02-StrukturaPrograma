@@ -10,7 +10,7 @@ namespace Vsite.CSharp.Imenici
     {
         static void Main(string[] args)
         {
-
+            Class1 c1 = new Class1();
         }
     }
 }
