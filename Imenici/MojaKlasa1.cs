@@ -2,7 +2,7 @@
 
 namespace Vsite.CSharp.PrviImenik
 {
-    class MojaKlasa
+    public class MojaKlasa
     {
         public void Metoda1()
         {
