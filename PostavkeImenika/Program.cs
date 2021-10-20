@@ -10,6 +10,7 @@ namespace Vsite.CSharp.Imenici
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
