@@ -1,11 +1,12 @@
 ﻿using System;
 
+
 namespace Vsite.CSharp.PrviImenik
 {
     class Imenici
     {
 
-        // TODO:020 Pokrenuti program i provjeriti ispise poziva donjih metoda.
+        // :020 Pokrenuti program i provjeriti ispise poziva donjih metoda.
         static void Main(string[] args)
         {
             MojaKlasa mk1 = new MojaKlasa();
