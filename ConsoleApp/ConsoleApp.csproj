@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>Vsite.CSharp.StrukturaPrograma</RootNamespace>
-    <StartupObject>Vsite.CSharp.StrukturaPrograma.PraviMain</StartupObject>
   </PropertyGroup>
 
 </Project>
