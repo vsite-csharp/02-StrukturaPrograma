@@ -25,7 +25,14 @@ namespace Vsite.CSharp.StrukturaPrograma
             return broj * broj;
         }
 
-        // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        // Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        
+        /// <summary>
+        /// Izračunava duljinu dviju sporednih riječi
+        /// </summary>
+        /// <param name="prva">prva riječ</param>
+        /// <param name="druga">druga riječ</param>
+        /// <returns>ukupnu duljinu. </returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
