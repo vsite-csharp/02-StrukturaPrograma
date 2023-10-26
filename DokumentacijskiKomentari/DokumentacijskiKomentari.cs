@@ -1,5 +1,9 @@
 ﻿namespace Vsite.CSharp.StrukturaPrograma
 {
+    /// <summary>
+    /// klasa s primjenom za dokumentacijske komentare.
+    /// </summary>
+    
     static class DokumentacijskiKomentari
     {
         // TODO:010 Postaviti strelicu (kurzor) iznad donjeg poziva metode Kvadrat i provjeriti što se prikazuje u oblačiću (eventualno napraviti build prije toga).
@@ -24,6 +28,13 @@
         }
 
         // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        
+        /// <summary>
+        /// Izracunava ukupnu duljinu dvije zadnje rijeci.
+        /// </summary>
+        /// <param name="prva">Prva rijec, tipa<c>string</c></param>
+        /// <param name="druga">Druga rijec, tipa<c>string</c></param>
+        /// <returns>Ukupna duljina</returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
