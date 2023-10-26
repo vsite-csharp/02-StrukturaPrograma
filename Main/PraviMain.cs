@@ -1,6 +1,6 @@
-﻿// TODO:000 Napraviti build projekta i pogledati koju pogrešku prevoditelj javlja. Usporediti metode Main u klasama PraviMain i JošJedanMain.
+﻿// 000 Napraviti build projekta i pogledati koju pogrešku prevoditelj javlja. Usporediti metode Main u klasama PraviMain i JošJedanMain.
 
-// TODO:001 U postavkama projekta staviti da je klasa PraviMain ulazna (Startup object) te pokrenuti novi build.
+// 001 U postavkama projekta staviti da je klasa PraviMain ulazna (Startup object) te pokrenuti novi build.
 
 namespace Vsite.CSharp.StrukturaPrograma
 {
@@ -11,8 +11,8 @@ namespace Vsite.CSharp.StrukturaPrograma
             Console.WriteLine("Krećem iz PraviMain.Main(string[] args)");
         }
 
-        // TODO:002 Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
-        static void Main()
+        // 002 Zakomentirati ili preimenovati donju metodu i napraviti build projekta te ga pokrenuti.
+        static void Main(int a)
         {
             Console.WriteLine("Krećem iz PraviMain.Main()");
         }
