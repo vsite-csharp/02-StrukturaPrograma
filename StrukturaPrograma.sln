@@ -18,13 +18,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Promjena postavki imenik
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{E54C631F-22C1-4D93-B049-8DF7C818A446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{747CC532-08C0-4C18-AA9E-23FD3F60F680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "Main\Main.csproj", "{747CC532-08C0-4C18-AA9E-23FD3F60F680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DokumentacijskiKomentari", "DokumentacijskiKomentari\DokumentacijskiKomentari.csproj", "{7880B491-CB6D-4D83-BE35-0309A95A0F2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DokumentacijskiKomentari", "DokumentacijskiKomentari\DokumentacijskiKomentari.csproj", "{7880B491-CB6D-4D83-BE35-0309A95A0F2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imenici", "Imenici\Imenici.csproj", "{083FEE94-94BA-444C-A439-A4EFF9D17093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imenici", "Imenici\Imenici.csproj", "{083FEE94-94BA-444C-A439-A4EFF9D17093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identifikatori", "Identifikatori\Identifikatori.csproj", "{C67B43D5-423E-4CDC-BD2E-3A996DF126FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identifikatori", "Identifikatori\Identifikatori.csproj", "{C67B43D5-423E-4CDC-BD2E-3A996DF126FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostavkeImenika", "PostavkeImenikaa\PostavkeImenika.csproj", "{68608108-D20E-46EE-B488-BA2FA41CE08D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,10 @@ Global
 		{C67B43D5-423E-4CDC-BD2E-3A996DF126FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C67B43D5-423E-4CDC-BD2E-3A996DF126FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C67B43D5-423E-4CDC-BD2E-3A996DF126FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68608108-D20E-46EE-B488-BA2FA41CE08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68608108-D20E-46EE-B488-BA2FA41CE08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68608108-D20E-46EE-B488-BA2FA41CE08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68608108-D20E-46EE-B488-BA2FA41CE08D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{7880B491-CB6D-4D83-BE35-0309A95A0F2E} = {504F19A4-A9E9-45F1-9B6C-CFE6BAB370F8}
 		{083FEE94-94BA-444C-A439-A4EFF9D17093} = {06B0884A-0BEB-4FE7-8950-039A393C5BB9}
 		{C67B43D5-423E-4CDC-BD2E-3A996DF126FA} = {E54C631F-22C1-4D93-B049-8DF7C818A446}
+		{68608108-D20E-46EE-B488-BA2FA41CE08D} = {B102E69B-43EF-4139-82D1-AA9C81EB47D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07666451-F63C-478E-B0B3-1D2E52D53EBA}
