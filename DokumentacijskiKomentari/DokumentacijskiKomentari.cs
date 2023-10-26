@@ -2,7 +2,7 @@
 {
     static class DokumentacijskiKomentari
     {
-        // TODO:010 Postaviti strelicu (kurzor) iznad donjeg poziva metode Kvadrat i provjeriti što se prikazuje u oblačiću (eventualno napraviti build prije toga).
+        // :010 Postaviti strelicu (kurzor) iznad donjeg poziva metode Kvadrat i provjeriti što se prikazuje u oblačiću (eventualno napraviti build prije toga).
         static void Main(string[] args)
         {
             Console.WriteLine(Kvadrat(5));
@@ -23,7 +23,14 @@
             return broj * broj;
         }
 
-        // TODO:011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+        // :011 Dodati dokumentacijski komentar za donju metodu i provjeriti pojavljuje li se opis u oblačiću na mjestu poziva metode u metodi Main.
+
+        /// <summary>
+        ///     Length of two words
+        /// </summary>
+        /// <param name="prva">First word</param>
+        /// <param name="druga">Second word</param>
+        /// <returns>Length of two words - int</returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return prva.Length + druga.Length;
