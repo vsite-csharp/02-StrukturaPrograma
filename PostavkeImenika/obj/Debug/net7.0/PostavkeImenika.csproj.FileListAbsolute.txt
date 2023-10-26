@@ -1,0 +1,15 @@
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/bin/Debug/net7.0/Pero
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/bin/Debug/net7.0/Pero.deps.json
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/bin/Debug/net7.0/Pero.runtimeconfig.json
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/bin/Debug/net7.0/Pero.dll
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/bin/Debug/net7.0/Pero.pdb
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.csproj.AssemblyReference.cache
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.GeneratedMSBuildEditorConfig.editorconfig
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.AssemblyInfoInputs.cache
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.AssemblyInfo.cs
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.csproj.CoreCompileInputs.cache
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/Pero.dll
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/refint/Pero.dll
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/Pero.pdb
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/PostavkeImenika.genruntimeconfig.cache
+/Users/patrikkralj/Projects/02-StrukturaPrograma/PostavkeImenika/obj/Debug/net7.0/ref/Pero.dll
